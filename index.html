@@ -23,7 +23,7 @@
 
 </script>
 
-    <title>Tempescope by kenkawakenkenke</title>
+    <title>Tempescope Project Page</title>
   </head>
 
   <body>
@@ -32,7 +32,7 @@
 
         <header>
           <h1>Tempescope</h1>
-          <h2>Code+CAD data for tempescope</h2>
+          <h2>Ambient weather display for your home</h2>
         </header>
 
         <section id="downloads" class="clearfix">
@@ -44,44 +44,62 @@
         <hr>
 
         <section id="main_content">
-          <p>Tempescope is an open-source physical display that visualizes the weather inside your room.</p>
+          <p>Tempescope is an ambient physical display that visualizes the weather, right inside your room.</p>
+          <p>See the video below for a brief introduction:</p>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/SybaGidghW8" frameborder="0" allowfullscreen></iframe>
 
-<p>The system is composed of three parts:
-Tempescope- the box itself
-Tempescope Remote- a wireless controller for your tempescope
-(optionally) your pc- to control your tempescope through the tempscope remote, and send updates of the current weather forecast etc.</p>
+<h1>Things you need</h1>
+<p>You need three things to have a working Tempescope:</b>
 
-<p>For more information, see the website at: <a href="http://kenkawakenkenke.github.io/tempescope/">http://kenkawakenkenke.github.io/tempescope/</a> for details.</p>
+<h2>Tempescope</h2>
+<p>The box itself.</p>
+<p>The Tempescope is basically a box with a water pump, ultrasonic diffuser, and LED lights controlled by an Arduino.</p>
+<p>All of the schematics, CAD diagrams, and instructions on making one are (scheduled to be) in the "hardware" folder of our repository</p>
+<p>The source code for the Tempescope is <a href="https://github.com/kenkawakenkenke/tempescope/tree/master/tempescope/Tempescope">here</a> (an Arduino sketch)</p>
+<p>May take between a few weekends ~ several months to build.</p>
+<p>Rough cost: $60~
+<p><img src="images/hardware/tempescope_small01.jpg"></p>
 
-<h1>CONTENTS OF DISTRIBUTION:</h1>
+<h2>Tempescope Remote</h2>
+<p>A wireless controller for your Tempescope</p>
+<p>This controller lets your PC talk to your Tempescope, or you directly to the box.</p>
+<p>The source code for the Tempescope Remote is <a href="https://github.com/kenkawakenkenke/tempescope/tree/master/tempescope/TempescopeRemote">here</a> (an Arduino sketch)</p>
+<p>Takes about a day to build (if you're lucky)</p>
+<p>Rough cost: $10~</p>
+<p><img src="images/hardware/remote_small.jpg"></p>
 
-<p>tempescope:  contains source code for the tempescope and the tempescope remote
-pc: contains the java source that runs on your PC for controlling your Tempescope
-hardware: contains the schematics, CAD data etc for the hardware</p>
+<h2>(optionally) your PC</h2>
+<p>To control your Tempescope through the Tempescope Remote, and send updates of the current weather forecast etc.</p>
+<p>Some sample programs for controlling the Tempescope through a Java program is released <a href="https://github.com/kenkawakenkenke/tempescope/tree/master/pc/TempescopeController">here</a></p>
 
-<h1>INSTALLATION:</h1>
+<h1>More info</h1>
+<p>See the <a href="https://github.com/kenkawakenkenke/tempescope/wiki">wiki</a> for detailed construction instructions</p>
+<p>Or, e-mail <a href="mailto:ken@kawamoto.co.uk">ken</a> with your inquiry</p>
 
-<ul>
-<li><p>tempescope/Tempescope
-runs inside your Arduino in your tempescope</p></li>
-<li><p>tempescope/Tempescope/TempescopeRemote
-runs inside your Arduino in your tempescope remote controller</p></li>
-<li><p>pc/TempescopeController
-runs on your PC to control your tempescope through the remote
-(1) import the project into your favorite IDE (eclipse, etc)
-(2) download the required libraries (json-simple, RXTXcomm) and put on your class path
-(3) run com.tempescope.app.SimpleTest</p></li>
-</ul><p>Detailed instructions will follow…</p>
+<h1>Who are we</h1>
+<p>Ken Kawamoto <a href="mailto:ken@kawamoto.co.uk">ken@kawamoto.co.uk</a> <a href="https://twitter.com/kenkawakenkenke" class="twitter-follow-button" data-show-count="false">Follow @kenkawakenkenke</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
 
-<h1>LIBRARIES</h1>
+<h1>Licenses</h1>
+<p>Much of the source code is released under LGPL</p>
+<p>The hardware (CAD diagrams, schematics, etc) are released under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported</a></p>
+<p>See <a href="https://github.com/kenkawakenkenke/tempescope/blob/master/LICENSE.txt">LISENSE.txt</a> for more details</p>
 
-<p>Tempescope uses the following libraries:
-VirtualWire.h
-json-simple
-RXTXcomm</p>
+<h1>How can you help</h1>
+<p><a href="https://github.com/kenkawakenkenke/tempescope/wiki/Make-a-Tempescope">Make one yourself!</a></p>
 
-<p>Ken Kawamoto
-<a href="mailto:ken@kawamoto.co.uk">ken@kawamoto.co.uk</a></p>
+<h1>Attributions</h1>
+<p>Tempescope depends on the following libraries/APIs (amongst others):</p>
+<p><a href="http://www.airspayce.com/mikem/arduino/">VirtualWire.h</a></p>
+<p><a href="http://code.google.com/p/json-simple/">json-simple</a></p>
+<p><a href="http://rxtx.qbang.org/wiki/index.php/Main_Page">RXTXcomm</a></p>
+<p><a href="http://www.wunderground.com/?apiref=d7e8aaa42dfa259d">Wunderground API</a></p>
+<p>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://tempescope.com" data-via="kenkawakenkenke">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+
         </section>
 
         <footer>
