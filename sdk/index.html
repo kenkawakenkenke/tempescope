@@ -91,7 +91,31 @@ lightning： trueの場合雷が出ます。
 		tempescope.playWeather(new Weather(sunLevel, weatherType,lightning));
 				</pre>
 
+
+<hr>
+
+			<h2>Tempescope Stream API</h2>
 			
+				よりローレベルに制御したい人は、315MHzRFで直接シリアル通信してください：<br>
+				<br>
+				<h3>天気を再生する</h3>
+				フォーマット：
+				<pre>
+Zr,[color],[weather],[lightning]
+</pre>
+color= 0~100　0=夜　0.5=朝焼け　1=昼<br>
+weather= 0:晴れ　1:雨　2:曇り<br>
+lightning= 0:雷なし　1:雷あり<br>
+<br>
+例１：　昼に雨が降ってる<br>
+<pre>Zr,100,1,0</pre>
+<br>
+例２：　早朝に曇ってる<br>
+<pre>Zr,23,2,0</pre>
+<br>
+例３：　夜中に雷雨<br>
+<pre>Zr,0,1,1</pre>
+				
 <hr>
 <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://tempescope.com" data-via="kenkawakenkenke">Tweet</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
