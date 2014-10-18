@@ -5,7 +5,7 @@ Tempescope- the box itself
 Tempescope Remote- a wireless controller for your tempescope
 (optionally) your pc- to control your tempescope through the tempscope remote, and send updates of the current weather forecast etc.
 
-For more information, see the website at: http://kenkawakenkenke.github.io/tempescope/ for details.
+For more information, see the website at: http://tempescope.com for details.
 
 CONTENTS OF DISTRIBUTION:
 tempescope:  contains source code for the tempescope and the tempescope remote
