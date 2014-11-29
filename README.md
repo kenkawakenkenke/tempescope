@@ -12,10 +12,10 @@ tempescope:  contains source code for the OpenTempescope and Tempescope Demo App
 hardware: contains the schematics, CAD data etc for the hardware
 
 INSTALLATION:
-- tempescope/OpenTempescope
+- OpenTempescope/OpenTempescope
   load this sketch onto an ATMega328p and insert into your OpenTempescope.
 
-- tempescope/TempescopeController/TempescopeDemo
+- OpenTempescope/TempescopeController/TempescopeDemo
   runs on an iOS device to control your OpenTempescope. The distributed version does not connect to a weather forecast service of any sort- this is left as an exercise for the reader.
 
 Ken Kawamoto (ken@kawamoto.co.uk)
