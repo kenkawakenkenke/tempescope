@@ -1,7 +1,11 @@
-this file includes licensing information for the tempescope.
+This file includes licensing information for the OpenTempescope.
 
-the gnu lesser general public license covers the source code for the tempescope, and the tempescope remote.
-the hardware (CAD, schematics, drawings, images) are released under Creative Commons Attribution-ShareAlike 3.0 Unported.
+NB: a "tempescope" refers to the proprietary commercial version. 
+"OpenTempescope" refers to the open sourced version published here.
+If you build a prototype after looking at things released in this project, you should be calling your creation an "OpenTempescope" instead of "tempescope".
+
+The gnu lesser general public license covers the source code for the OpenTempescope, and the OpenTempescope remote.
+The hardware (CAD, schematics, drawings, images) are released under Creative Commons Attribution-ShareAlike 3.0 Unported.
 See: http://creativecommons.org/licenses/by-sa/3.0/
 
 
