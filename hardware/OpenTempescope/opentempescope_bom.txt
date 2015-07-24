@@ -1,4 +1,4 @@
-Partlist exported from /Users/kenny/Documents/eagle/OpenTempescope/opentempescope.sch at 2014/11/29 15:51
+﻿Partlist exported from /Users/kenny/Documents/eagle/OpenTempescope/opentempescope.sch at 2014/11/29 15:51
 
 Qty Value           Device          Package      Parts                                                                                                             Description                MF MPN             OC_FARNELL OC_NEWARK
 13                  2,15/1,0        2,15/1,0     BLE_5V, BLE_CTS, BLE_G, BLE_RTC, BLE_RX, BLE_TX, DCFAN_5V, DCFAN_GND, GND, MIST_24V, MIST_GND, PUMP_12V, PUMP_GND THROUGH-HOLE PAD                                                  
@@ -14,7 +14,7 @@ Qty Value           Device          Package      Parts                          
 1   941H-2C-5D      941H-2C-5D      941H-2C-5D   U$2                                                                                                                                                                                 
 1   ATMEGA328P      ATMEGA328P      ATMEGA328P   U$3                                                                                                                                                                                 
 1   FP204K-35G1R1B1 GM1WA55311A     GM1WA55311A  LED1                                                                                                              Chip LED RGB                                                      
-1   HPH05001M       HPH05001M       HPH05001M    U$1                                                                                                               HPH05001M                                                         
+1   HPH12001M       HPH12001M       HPH12001M    U$1                                                                                                               HPH12001M                                                         
 1   LM7805          78XXS           78XXS        IC4                                                                                                               VOLTAGE REGULATOR                                                 
 1   TD62083         TD62083         TD62083      IC2                                                                                                                                                                                 
 1   ZTT 16MHz       CSTCR6M00G53Z   CSTCR6M      XTAL                                                                                                              Resonator                     CSTCR6M00G53-R0 1170434    25M8759  
