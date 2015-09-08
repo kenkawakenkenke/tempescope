@@ -25,11 +25,14 @@
 enum WeatherType{
   kClear,
   kRain,
-  kCloudy};
+  kCloudy,
+  kStorm,
+  kRGB};
   
 class Weather {
   public:
   Weather(double pNoon,WeatherType weatherType, boolean lightning);
+  Weather(double pNoon,WeatherType weatherType, boolean lightning, double red, double blue, double green);
   double pNoon();
   WeatherType weatherType();
   boolean lightning();
@@ -37,12 +40,18 @@ class Weather {
   void setFrom(double pNoon, WeatherType weatherType, boolean lightning);
   void print();
   void validateAndFix();
+  double red();
+  double green();
+  double blue();
   
   private:
   
   double _pNoon;
   WeatherType _weatherType;
   boolean _lightning;
+  double _red;
+  double _blue;
+  double _green;
 };
 
 #endif

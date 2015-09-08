@@ -1,0 +1,7 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+#ifndef DEBUG
+#define NSLog(...)
+#endif

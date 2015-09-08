@@ -61,9 +61,9 @@ void FanStateController::stateTimedOut(int state){
   else if(state==STATE_FAN_CLEARING){
     setState(STATE_FAN_OFF);
     for(int i=0;i<5;i++){
-      digitalWrite(11,HIGH);
+      digitalWrite(9,HIGH);
       delay(300);
-      digitalWrite(11,LOW);
+      digitalWrite(9,LOW);
       delay(300);
     }
   }

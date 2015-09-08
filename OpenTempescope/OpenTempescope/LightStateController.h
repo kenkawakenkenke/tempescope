@@ -27,6 +27,7 @@
 #define STATE_LIGHT_SUN 0 //sun
 #define STATE_LIGHT_LNG_H 1 //lightning(high)
 #define STATE_LIGHT_LNG_L 2 //lightning(low)
+#define STATE_LIGHT_RGB 3 //lightning(low)
 #define ACTION_LIGHT_LNG_ON 0
 #define ACTION_LIGHT_LNG_OFF 1
 
@@ -34,15 +35,20 @@ class LightStateController: public StateController{
   public:
     LightStateController(LightController *lightController);
     void setPNoon(float pNoon);
+    int setRGB(float pRed, float pGreen, float pBlue);
   protected:
     void stateChangedTo(int state);
     void transition(int state,int action);
     void stateTimedOut(int state);
   private:
     void showSunlight();
+    int showRGBlight();
     
     LightController *lightController;
     float _pNoon;
+    float _pRed;
+    float _pGreen;
+    float _pBlue;
 };
 
 #endif

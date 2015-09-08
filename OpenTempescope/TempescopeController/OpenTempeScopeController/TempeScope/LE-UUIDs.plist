@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>write-with-response-uuids</key>
+	<array/>
+	<key>service-uuids</key>
+	<array>
+		<string>FFE0</string>
+	</array>
+	<key>write-uuids</key>
+	<array>
+		<string>FFE1</string>
+	</array>
+	<key>read-uuids</key>
+	<array>
+		<string>FFE1</string>
+	</array>
+</dict>
+</plist>

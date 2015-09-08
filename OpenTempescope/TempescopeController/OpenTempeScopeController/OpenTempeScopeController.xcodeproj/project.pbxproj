@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4911171C1B978C99003F5772 /* OWMWeatherAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4911171B1B978C99003F5772 /* OWMWeatherAPI.m */; };
+		4925B3B61B9B449A00289131 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4925B3B51B9B449A00289131 /* Launch Screen.storyboard */; };
+		4925B3B81B9B486F00289131 /* Launchimage4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4925B3B71B9B486F00289131 /* Launchimage4.png */; };
+		495621781B93A83F00C57788 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 495621771B93A83F00C57788 /* LocationViewController.m */; };
+		4971BC691B9A5F4400912ADF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4971BC681B9A5F4400912ADF /* Default-568h@2x.png */; };
+		497A4E631B98EFD1004173E9 /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 497A4E621B98EFD1004173E9 /* 01d.png */; };
+		497A4E881B996035004173E9 /* onLoad_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 497A4E871B996035004173E9 /* onLoad_big.png */; };
+		49A1FBC31B9630330039ACB1 /* onLoad.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A1FBC21B9630330039ACB1 /* onLoad.png */; };
+		49B822D11B9A68C900129EE0 /* OTSIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49B822AB1B9A68C900129EE0 /* OTSIcon.png */; };
+		49E2B7D71B949655001A33C6 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2B7D61B949655001A33C6 /* Weather.m */; };
+		49EE5DB61B92E22400D80D90 /* TSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49EE5DB51B92E22400D80D90 /* TSViewController.m */; };
+		49EE5DB71B93010300D80D90 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49EE5DB91B93010300D80D90 /* MainStoryboard.storyboard */; };
+		5B158E6B18321E53006EE7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9182536148D762600D6064E /* Foundation.framework */; };
+		5B158E6C18321E53006EE7C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9182538148D762600D6064E /* CoreGraphics.framework */; };
+		5B158E6D18321E53006EE7C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9182534148D762600D6064E /* UIKit.framework */; };
+		5B158E7318321E53006EE7C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B158E7118321E53006EE7C2 /* InfoPlist.strings */; };
+		5B158E7518321E53006EE7C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B158E7418321E53006EE7C2 /* main.m */; };
+		5B158E7918321E53006EE7C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B158E7818321E53006EE7C2 /* AppDelegate.m */; };
+		5B158E7B18321E53006EE7C2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B158E7A18321E53006EE7C2 /* Images.xcassets */; };
+		5B22D6D5185FFF510067D75A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B22D6D4185FFF510067D75A /* libPods.a */; };
+		5B3B856918B04FB2006405C7 /* LE-Options.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3B856718B04FB2006405C7 /* LE-Options.plist */; };
+		5B3B856A18B04FB2006405C7 /* LE-UUIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B3B856818B04FB2006405C7 /* LE-UUIDs.plist */; };
+		5B4BCB3E18321E8500ADAE0E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BCB3918321E8500ADAE0E /* DetailViewController.m */; };
+		5B4BCB48183220F200ADAE0E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BA1100418321D1E00A5398C /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4911171A1B978C99003F5772 /* OWMWeatherAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OWMWeatherAPI.h; sourceTree = "<group>"; };
+		4911171B1B978C99003F5772 /* OWMWeatherAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OWMWeatherAPI.m; sourceTree = "<group>"; };
+		4925B3B51B9B449A00289131 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4925B3B71B9B486F00289131 /* Launchimage4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Launchimage4.png; path = Ressources/Launchimage4.png; sourceTree = "<group>"; };
+		495621761B93A83F00C57788 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		495621771B93A83F00C57788 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		4971BC681B9A5F4400912ADF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		497A4E621B98EFD1004173E9 /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01d.png; sourceTree = "<group>"; };
+		497A4E871B996035004173E9 /* onLoad_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = onLoad_big.png; sourceTree = "<group>"; };
+		49A1FBC21B9630330039ACB1 /* onLoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = onLoad.png; path = Ressources/onLoad.png; sourceTree = "<group>"; };
+		49B822AB1B9A68C900129EE0 /* OTSIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OTSIcon.png; path = Ressources/OTSIcon.png; sourceTree = "<group>"; };
+		49E2B7D51B949655001A33C6 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
+		49E2B7D61B949655001A33C6 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
+		49EE5DB41B92E22400D80D90 /* TSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSViewController.h; sourceTree = "<group>"; };
+		49EE5DB51B92E22400D80D90 /* TSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSViewController.m; sourceTree = "<group>"; };
+		49EE5DB81B93010300D80D90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		5B158E6A18321E53006EE7C2 /* OpenTempeScopeController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenTempeScopeController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B158E7018321E53006EE7C2 /* OpenTempeScopeController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenTempeScopeController-Info.plist"; sourceTree = "<group>"; };
+		5B158E7218321E53006EE7C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B158E7418321E53006EE7C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B158E7618321E53006EE7C2 /* OpenTempeScopeController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenTempeScopeController-Prefix.pch"; sourceTree = "<group>"; };
+		5B158E7718321E53006EE7C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B158E7818321E53006EE7C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B158E7A18321E53006EE7C2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B158E8118321E53006EE7C2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B22D6D4185FFF510067D75A /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
+		5B3B856718B04FB2006405C7 /* LE-Options.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LE-Options.plist"; sourceTree = "<group>"; };
+		5B3B856818B04FB2006405C7 /* LE-UUIDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LE-UUIDs.plist"; sourceTree = "<group>"; };
+		5B4BCB3818321E8500ADAE0E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		5B4BCB3918321E8500ADAE0E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5BA1100418321D1E00A5398C /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		6AC8731E916B0FB45C89C88A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B3391203DC3949449929543D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9182534148D762600D6064E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9182536148D762600D6064E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9182538148D762600D6064E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7AD779DF1947E6A948E390E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B158E6718321E53006EE7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B22D6D5185FFF510067D75A /* libPods.a in Frameworks */,
+				5B4BCB48183220F200ADAE0E /* CoreBluetooth.framework in Frameworks */,
+				5B158E6C18321E53006EE7C2 /* CoreGraphics.framework in Frameworks */,
+				5B158E6D18321E53006EE7C2 /* UIKit.framework in Frameworks */,
+				5B158E6B18321E53006EE7C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38932646D4AA123453BC5BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AC8731E916B0FB45C89C88A /* Pods.debug.xcconfig */,
+				F7AD779DF1947E6A948E390E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		491117191B978C99003F5772 /* OpenWeatherMapAPI */ = {
+			isa = PBXGroup;
+			children = (
+				4911171A1B978C99003F5772 /* OWMWeatherAPI.h */,
+				4911171B1B978C99003F5772 /* OWMWeatherAPI.m */,
+			);
+			path = OpenWeatherMapAPI;
+			sourceTree = "<group>";
+		};
+		494959661B951562003B2071 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4925B3B71B9B486F00289131 /* Launchimage4.png */,
+				49B822AB1B9A68C900129EE0 /* OTSIcon.png */,
+				497A4E871B996035004173E9 /* onLoad_big.png */,
+				497A4E621B98EFD1004173E9 /* 01d.png */,
+				49A1FBC21B9630330039ACB1 /* onLoad.png */,
+				494959671B951574003B2071 /* weatherImages */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		494959671B951574003B2071 /* weatherImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = weatherImages;
+			sourceTree = "<group>";
+		};
+		5B158E6E18321E53006EE7C2 /* TempeScope */ = {
+			isa = PBXGroup;
+			children = (
+				491117191B978C99003F5772 /* OpenWeatherMapAPI */,
+				5B3B856718B04FB2006405C7 /* LE-Options.plist */,
+				5B3B856818B04FB2006405C7 /* LE-UUIDs.plist */,
+				5B158E7718321E53006EE7C2 /* AppDelegate.h */,
+				5B158E7818321E53006EE7C2 /* AppDelegate.m */,
+				5B4BCB3818321E8500ADAE0E /* DetailViewController.h */,
+				5B4BCB3918321E8500ADAE0E /* DetailViewController.m */,
+				49EE5DB41B92E22400D80D90 /* TSViewController.h */,
+				49EE5DB51B92E22400D80D90 /* TSViewController.m */,
+				495621761B93A83F00C57788 /* LocationViewController.h */,
+				495621771B93A83F00C57788 /* LocationViewController.m */,
+				49E2B7D51B949655001A33C6 /* Weather.h */,
+				49E2B7D61B949655001A33C6 /* Weather.m */,
+				5B158E7A18321E53006EE7C2 /* Images.xcassets */,
+				494959661B951562003B2071 /* Resources */,
+				5B158E6F18321E53006EE7C2 /* Supporting Files */,
+			);
+			path = TempeScope;
+			sourceTree = "<group>";
+		};
+		5B158E6F18321E53006EE7C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EE5DB91B93010300D80D90 /* MainStoryboard.storyboard */,
+				5B158E7018321E53006EE7C2 /* OpenTempeScopeController-Info.plist */,
+				5B158E7118321E53006EE7C2 /* InfoPlist.strings */,
+				5B158E7418321E53006EE7C2 /* main.m */,
+				5B158E7618321E53006EE7C2 /* OpenTempeScopeController-Prefix.pch */,
+				4925B3B51B9B449A00289131 /* Launch Screen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9182525148D762500D6064E = {
+			isa = PBXGroup;
+			children = (
+				4971BC681B9A5F4400912ADF /* Default-568h@2x.png */,
+				5B158E6E18321E53006EE7C2 /* TempeScope */,
+				B9182533148D762600D6064E /* Frameworks */,
+				B9182531148D762600D6064E /* Products */,
+				38932646D4AA123453BC5BA4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B9182531148D762600D6064E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B158E6A18321E53006EE7C2 /* OpenTempeScopeController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9182533148D762600D6064E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B22D6D4185FFF510067D75A /* libPods.a */,
+				5BA1100418321D1E00A5398C /* CoreBluetooth.framework */,
+				B9182534148D762600D6064E /* UIKit.framework */,
+				B9182536148D762600D6064E /* Foundation.framework */,
+				B9182538148D762600D6064E /* CoreGraphics.framework */,
+				5B158E8118321E53006EE7C2 /* XCTest.framework */,
+				B3391203DC3949449929543D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B158E6918321E53006EE7C2 /* OpenTempeScopeController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B158E8F18321E54006EE7C2 /* Build configuration list for PBXNativeTarget "OpenTempeScopeController" */;
+			buildPhases = (
+				5F4B964458A145B1BB6EE355 /* Check Pods Manifest.lock */,
+				5B158E6618321E53006EE7C2 /* Sources */,
+				5B158E6718321E53006EE7C2 /* Frameworks */,
+				5B158E6818321E53006EE7C2 /* Resources */,
+				FCFF2B3E6FD54318B8BCBF94 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenTempeScopeController;
+			productName = OpenBLE;
+			productReference = 5B158E6A18321E53006EE7C2 /* OpenTempeScopeController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9182527148D762500D6064E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					5B158E6918321E53006EE7C2 = {
+						DevelopmentTeam = 59R46A7D28;
+					};
+				};
+			};
+			buildConfigurationList = B918252A148D762500D6064E /* Build configuration list for PBXProject "OpenTempeScopeController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9182525148D762500D6064E;
+			productRefGroup = B9182531148D762600D6064E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B158E6918321E53006EE7C2 /* OpenTempeScopeController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B158E6818321E53006EE7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3B856918B04FB2006405C7 /* LE-Options.plist in Resources */,
+				49A1FBC31B9630330039ACB1 /* onLoad.png in Resources */,
+				49B822D11B9A68C900129EE0 /* OTSIcon.png in Resources */,
+				497A4E881B996035004173E9 /* onLoad_big.png in Resources */,
+				5B158E7318321E53006EE7C2 /* InfoPlist.strings in Resources */,
+				4925B3B81B9B486F00289131 /* Launchimage4.png in Resources */,
+				497A4E631B98EFD1004173E9 /* 01d.png in Resources */,
+				49EE5DB71B93010300D80D90 /* MainStoryboard.storyboard in Resources */,
+				5B3B856A18B04FB2006405C7 /* LE-UUIDs.plist in Resources */,
+				4925B3B61B9B449A00289131 /* Launch Screen.storyboard in Resources */,
+				4971BC691B9A5F4400912ADF /* Default-568h@2x.png in Resources */,
+				5B158E7B18321E53006EE7C2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F4B964458A145B1BB6EE355 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCFF2B3E6FD54318B8BCBF94 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B158E6618321E53006EE7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B158E7918321E53006EE7C2 /* AppDelegate.m in Sources */,
+				495621781B93A83F00C57788 /* LocationViewController.m in Sources */,
+				5B158E7518321E53006EE7C2 /* main.m in Sources */,
+				5B4BCB3E18321E8500ADAE0E /* DetailViewController.m in Sources */,
+				49E2B7D71B949655001A33C6 /* Weather.m in Sources */,
+				4911171C1B978C99003F5772 /* OWMWeatherAPI.m in Sources */,
+				49EE5DB61B92E22400D80D90 /* TSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49EE5DB91B93010300D80D90 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49EE5DB81B93010300D80D90 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		5B158E7118321E53006EE7C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B158E7218321E53006EE7C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B158E9018321E54006EE7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC8731E916B0FB45C89C88A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempeScope/OpenTempeScopeController-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenBLE\"",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Vendor/LibComponentLogging/Core\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TempeScope/OpenTempeScopeController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OpenBLE\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Vendor/LibComponentLogging/Core\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"ISO8601DateFormatterValueTransformer\"",
+					"-l\"OpenBLE\"",
+					"-l\"RKValueTransformers\"",
+					"-l\"SOCKit\"",
+					"-l\"TPKeyboardAvoiding\"",
+					"-l\"TransitionKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sergio.OpenTempescopeController;
+				PRODUCT_NAME = OpenTempeScopeController;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5B158E9118321E54006EE7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7AD779DF1947E6A948E390E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TempeScope/OpenTempeScopeController-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenBLE\"",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+					"\"${PODS_ROOT}/Headers/Public/Vendor/LibComponentLogging/Core\"",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/TempeScope/OpenTempeScopeController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/ISO8601DateFormatterValueTransformer\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/OpenBLE\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/RKValueTransformers\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/SOCKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/TransitionKit\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/Vendor/LibComponentLogging/Core\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"ISO8601DateFormatterValueTransformer\"",
+					"-l\"OpenBLE\"",
+					"-l\"RKValueTransformers\"",
+					"-l\"SOCKit\"",
+					"-l\"TPKeyboardAvoiding\"",
+					"-l\"TransitionKit\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreBluetooth\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sergio.OpenTempescopeController;
+				PRODUCT_NAME = OpenTempeScopeController;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B918254C148D762600D6064E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B918254D148D762600D6064E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B158E8F18321E54006EE7C2 /* Build configuration list for PBXNativeTarget "OpenTempeScopeController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B158E9018321E54006EE7C2 /* Debug */,
+				5B158E9118321E54006EE7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B918252A148D762500D6064E /* Build configuration list for PBXProject "OpenTempeScopeController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B918254C148D762600D6064E /* Debug */,
+				B918254D148D762600D6064E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9182527148D762500D6064E /* Project object */;
+}
