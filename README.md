@@ -5,7 +5,7 @@ The system is composed of three parts:
 OpenTempescope- the box itself
 Tempescope Demo App- an app that runs on your iOS device, and connects to OpenTempescope by BLE
 
-For more information, see our website at: http://tempescope.com
+For instructions on how to build a tempescope, see: https://github.com/kenkawakenkenke/tempescope/wiki
 
 CONTENTS OF DISTRIBUTION:
 tempescope:  contains source code for the OpenTempescope and Tempescope Demo App
@@ -17,5 +17,7 @@ INSTALLATION:
 
 - OpenTempescope/TempescopeController/TempescopeDemo
   runs on an iOS device to control your OpenTempescope. The distributed version does not connect to a weather forecast service of any sort- this is left as an exercise for the reader.
+
+For more information about the entire project, see our website at: http://tempescope.com
 
 Ken Kawamoto (ken@kawamoto.co.uk)
