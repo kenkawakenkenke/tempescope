@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>619CDB69-9779-4C81-9411-8474045E9F64</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenBLE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>175F0272-79E1-46F9-8C1C-482FC19A019E</key>
+		<string>ssh://github.com/jacobrosenthal/OpenBLE.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenBLE.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>175F0272-79E1-46F9-8C1C-482FC19A019E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/jacobrosenthal/OpenBLE.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>175F0272-79E1-46F9-8C1C-482FC19A019E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>175F0272-79E1-46F9-8C1C-482FC19A019E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenBLE</string>
+		</dict>
+	</array>
+</dict>
+</plist>

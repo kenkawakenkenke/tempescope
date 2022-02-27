@@ -24,12 +24,27 @@ Weather::Weather(double pNoon,WeatherType weatherType, boolean lightning){
   this->_pNoon=pNoon;
   this->_weatherType=weatherType;
   this->_lightning=lightning;
+  this->_red = 0;
+  this->_green = 0;
+  this->_blue = 0;
+}
+
+Weather::Weather(double pNoon,WeatherType weatherType, boolean lightning, double red, double green, double blue){
+  this->_pNoon=pNoon;
+  this->_weatherType=weatherType;
+  this->_lightning=lightning;
+  this->_red = red;
+  this->_green = green;
+  this->_blue = blue;
 }
 
 void Weather::setFrom(Weather other){
   this->_pNoon=other.pNoon();
   this->_weatherType=other.weatherType();
   this->_lightning=other.lightning();
+  this->_red=other.red();
+  this->_green=other.green();
+  this->_blue=other.blue();
 }
 
 double Weather::pNoon(){
@@ -41,23 +56,38 @@ WeatherType Weather::weatherType(){
 boolean Weather::lightning(){
   return _lightning;
 }
+double Weather::red(){
+  return _red;  
+}
+double Weather::green(){
+  return _green;  
+}
+double Weather::blue(){
+  return _blue;  
+}
+ 
+void Weather::print(){
   
-  
-  void Weather::print(){
-    
-      Serial.print(pNoon());
-      Serial.print(" ");
-      Serial.print(weatherType());
-      Serial.print(" ");
-      Serial.print(lightning());
-      Serial.println();
-  }
+    Serial.print(" noon: ");
+    Serial.print(pNoon());
+    Serial.print(" WT: ");
+    Serial.print(weatherType());
+    Serial.print(" LIG: ");
+    Serial.print(lightning());
+    Serial.print(" red: ");
+    Serial.print(red());
+    Serial.print(" green: ");
+    Serial.print(green());
+    Serial.print(" blue: ");
+    Serial.print(blue());
+    Serial.println();
+}
   
 void Weather::validateAndFix(){
   if(_pNoon<0)_pNoon=0;
   if(_pNoon>1)_pNoon=1;
   if(_weatherType<0)_weatherType=kClear;
-  if(_weatherType>2)_weatherType=kRain;
+  if(_weatherType>4)_weatherType=kRain;
   if(_lightning<0)_lightning=0;
   if(_lightning>1)_lightning=1;
 }

@@ -1,0 +1,16 @@
+PODS:
+  - AFNetworking (1.3.3)
+  - OpenBLE (1.0.0)
+  - TPKeyboardAvoiding (1.2.9)
+
+DEPENDENCIES:
+  - AFNetworking (= 1.3.3)
+  - OpenBLE (>= 1.0.0)
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  AFNetworking: 127629aef6e631d57291c25154defc678c8a7337
+  OpenBLE: 5c2ebaa2271f961e242ad6d08efa5cdb4cb4ec06
+  TPKeyboardAvoiding: ff1ee4e5a5a0c119b965552af8f183868ea20207
+
+COCOAPODS: 0.38.2

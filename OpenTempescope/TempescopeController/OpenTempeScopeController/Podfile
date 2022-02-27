@@ -1,0 +1,5 @@
+platform :ios, '8.4'
+
+pod 'OpenBLE', '>= 1.0.0'
+pod 'TPKeyboardAvoiding'
+pod 'AFNetworking', '1.3.3'
